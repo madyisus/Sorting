@@ -10,7 +10,7 @@ RANGE = 1 2 3 4 5
 
 INPUT_PREFIX := tests/input
 
-OUTPUT_PREFIX := output
+OUTPUT_PREFIX := outputs/output
 
 all: program
 	for j in $(RANGE); do \
