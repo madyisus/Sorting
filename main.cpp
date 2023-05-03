@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <fstream>
+#include <algorithm>
+#include <iostream>
 #include "sort_algorithm.h"
 
 using namespace std;
@@ -48,6 +50,8 @@ int main(int argc, char *argv[]){
     
     int an_array[n];                  // se genera un array de tamaño n
     generateRandomArray(an_array,n);  // se llena el array con numeros enteros aleatorios
+    sort(an_array,an_array+n);
+    //sort(an_array,an_array+n/2);
 
     for(int j = 0; j < num_of_experiments; j++){ 
       long long single_execution_time = execution_time_ms(array_sort, an_array, n, selected_algorithm);

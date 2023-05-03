@@ -33,6 +33,7 @@ y_lim = 1000
 ax1.set_ylabel('tiempo [ms]')
 ax1.set_xlabel('n')
 ax1.set_ylim(0,1000)
+ax1.set_xlim(0,5000)
 
 # ax2.set_title(r'Ajuste cuadrático para algoritmos $O(n^2)$')
 # ax2.set_ylabel('tiempo [ms]')
