@@ -8,4 +8,6 @@ RANGE = secuencia de numeros representando los algoritmos a usar.
 
 TEST_CASES_NUMBER = indices de los inputs a usar.
 
+El script de ploteo se ejecuta desde la terminal pasando los archivos .csv a considerar como argumentos.
+
 
